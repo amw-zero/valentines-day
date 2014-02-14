@@ -1,6 +1,8 @@
 ValentinesDay::Application.routes.draw do
   root 'static_pages#home'
-  match '/next', to: 'static_pages#next', via: 'get'
+  match '/beak', to: 'static_pages#beak', via: 'get'
+  match '/huggy', to: 'static_pages#huggy', via: 'get'
+  match '/lovey', to: 'static_pages#lovey', via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
