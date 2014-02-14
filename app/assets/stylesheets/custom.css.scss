@@ -2,6 +2,11 @@
 
 .center {
   text-align: center;
+  background-color:transparent;
+  h2 {
+     color:yellow;
+     background-color:red;
+  }
 }
 
 body {
@@ -16,8 +21,10 @@ body {
   font-weight: bolder;
 }
 
+/*
 #next-btn {
   text-align:center;	  
 
 }
+*/
 
